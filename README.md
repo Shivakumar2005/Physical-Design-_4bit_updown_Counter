@@ -68,10 +68,13 @@ In order to add any of the objects, make a right click on the corresponding labe
 Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • add slow.lib with a label Slow or any identifier of your own.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/cd72a6d4-0fde-4c59-bf93-2460ce345f28" />
 
 ### Fig.1 Add slow Library set
 
 • add fast.lib with a label Fast or any identifier of your own.
+<img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/f120d0c7-7753-452c-83fd-bb7c6653f2d4" />
+
 
 ### Fig.2 Add fast Library set
 
@@ -80,18 +83,23 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 ### Fig.3 Add RC corner
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
+<img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/ac6fb82c-e6d6-4ebc-8c6d-f3d913020ffe" />
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
+<img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/734723d2-d6a2-49ab-a4fa-26e63b49f04b" />
 
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
+<img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/1d64e683-0886-49e8-adb3-b7b9ffcee2d3" />
+
 
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+<img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/b9ec7b9c-e125-4bfc-bd4e-0ffb36b539af" />
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
@@ -101,11 +109,13 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • After saving the script, go back to Import Design window and Click “OK” to load your design.
 
-<img width="829" height="504" alt="image" src="https://github.com/user-attachments/assets/9daa96ae-ee07-42a3-804a-58f68763fd55" />
+<img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/b6fa3036-cf07-4f70-ae92-c798a37e2c3f" />
+
 
 In the Import Design window click the save option to save the Default.globals file
 
 • A rectangular or square box appears in your GUI if and only if all the inputs are read properly.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b6c6c256-8f5f-4ff2-8d0e-0e5bbc85c8ef" />
 
 ### Fig.8 Core area
 
@@ -126,6 +136,7 @@ In the Import Design window click the save option to save the Default.globals fi
 3. Channel Spacing between Core Boundary to IO Boundary
  
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ebbc10af-57b9-4d10-95ca-7ae08c1b5381" />
 
 ### Fig.9 Specify Floorplan 
 
@@ -170,10 +181,12 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 • To perform Special Route, Select Route → Special Route → Add Nets → OK. 
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/12a85bc3-7701-4a0f-9628-8bfc11bc202b" />
 
 ### Fig.10 Power plan 
 
 The complete Power Planning process makes sure Every Standard Cell receives enough power to operate smoothly.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/1d2aa82f-cdde-40ab-afff-dd052845a6c8" />
 
 #### → Placement 
 
@@ -182,10 +195,12 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 2. Select Place → Place Standard Cell → Run Full Placement → Mode → Enable ‘Place I/O Pins’ → OK → OK .
    
 • All the Standard Cells and Pins are placed as per the communication between them, i.e., Two communicating Cells are placed as close as possible so that shorter Net lengths can be used for connections as Shorter Net Lengths enable Better Timing Results.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ace3c113-cbb2-4bc7-930d-f72494e1ab9f" />
 
 ### Fig.11 Placement of standard Cells 
 
 • You can toggle the Layer Visibility from the list on the Right. The List of Layers available are shown on the right under “Layer” tab with colour coding.
+<img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/83b1c2e6-333c-4ba6-8628-07cad1d54b44" />
 
 ## Result
 
